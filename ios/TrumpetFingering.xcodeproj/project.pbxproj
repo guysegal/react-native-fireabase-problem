@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73A07EBB1FE1CA76006F7122 /* ReactNativeViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A07EBA1FE1CA76006F7122 /* ReactNativeViewFactory.swift */; };
+		73A07EBF1FE1E0CC006F7122 /* ReactNativeViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A07EBE1FE1E0CC006F7122 /* ReactNativeViewManager.swift */; };
+		73A07EC31FE1E146006F7122 /* ReactNativeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A07EC21FE1E146006F7122 /* ReactNativeViewManager.m */; };
+		73BC4E4E1FE1B14B00C41F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC4E4D1FE1B14B00C41F36 /* AppDelegate.swift */; };
+		73BC4E501FE1B14B00C41F36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC4E4F1FE1B14B00C41F36 /* ViewController.swift */; };
+		73BC4E531FE1B14B00C41F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BC4E511FE1B14B00C41F36 /* Main.storyboard */; };
+		73BC4E551FE1B14B00C41F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73BC4E541FE1B14B00C41F36 /* Assets.xcassets */; };
+		73BC4E581FE1B14B00C41F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BC4E561FE1B14B00C41F36 /* LaunchScreen.storyboard */; };
+		73BC4E631FE1B14B00C41F36 /* TrumpetFingeringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC4E621FE1B14B00C41F36 /* TrumpetFingeringTests.swift */; };
+		73BC4E6F1FE1B28300C41F36 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC4E6D1FE1B28300C41F36 /* SecondViewController.swift */; };
+		73BC4E701FE1B28300C41F36 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC4E6E1FE1B28300C41F36 /* ThirdViewController.swift */; };
+		C860A2EDCD96F9AF6ABD839B /* Pods_TrumpetFingering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702AEB0FAAA6CDB30640DDC0 /* Pods_TrumpetFingering.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73BC4E5F1FE1B14B00C41F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73BC4E421FE1B14B00C41F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73BC4E491FE1B14B00C41F36;
+			remoteInfo = TrumpetFingering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A7D71EEEF8E4D883E5A928 /* Pods-TrumpetFingering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetFingering.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpetFingering/Pods-TrumpetFingering.debug.xcconfig"; sourceTree = "<group>"; };
+		702AEB0FAAA6CDB30640DDC0 /* Pods_TrumpetFingering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumpetFingering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A07EBA1FE1CA76006F7122 /* ReactNativeViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeViewFactory.swift; sourceTree = "<group>"; };
+		73A07EBE1FE1E0CC006F7122 /* ReactNativeViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeViewManager.swift; sourceTree = "<group>"; };
+		73A07EC21FE1E146006F7122 /* ReactNativeViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeViewManager.m; sourceTree = "<group>"; };
+		73BC4E4A1FE1B14B00C41F36 /* TrumpetFingering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrumpetFingering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BC4E4D1FE1B14B00C41F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73BC4E4F1FE1B14B00C41F36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73BC4E521FE1B14B00C41F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73BC4E541FE1B14B00C41F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73BC4E571FE1B14B00C41F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73BC4E591FE1B14B00C41F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BC4E5E1FE1B14B00C41F36 /* TrumpetFingeringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpetFingeringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BC4E621FE1B14B00C41F36 /* TrumpetFingeringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpetFingeringTests.swift; sourceTree = "<group>"; };
+		73BC4E641FE1B14B00C41F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BC4E6D1FE1B28300C41F36 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		73BC4E6E1FE1B28300C41F36 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C29AB3CFCCB4DAC6E1753039 /* Pods-TrumpetFingering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetFingering.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpetFingering/Pods-TrumpetFingering.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73BC4E471FE1B14B00C41F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C860A2EDCD96F9AF6ABD839B /* Pods_TrumpetFingering.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BC4E5B1FE1B14B00C41F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73BC4E411FE1B14B00C41F36 = {
+			isa = PBXGroup;
+			children = (
+				73BC4E4C1FE1B14B00C41F36 /* TrumpetFingering */,
+				73BC4E611FE1B14B00C41F36 /* TrumpetFingeringTests */,
+				73BC4E4B1FE1B14B00C41F36 /* Products */,
+				E50BDDB15E833CBB79F03D2E /* Pods */,
+				87FB780C63B7A7CF4305EF06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73BC4E4B1FE1B14B00C41F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73BC4E4A1FE1B14B00C41F36 /* TrumpetFingering.app */,
+				73BC4E5E1FE1B14B00C41F36 /* TrumpetFingeringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73BC4E4C1FE1B14B00C41F36 /* TrumpetFingering */ = {
+			isa = PBXGroup;
+			children = (
+				73BC4E6D1FE1B28300C41F36 /* SecondViewController.swift */,
+				73BC4E6E1FE1B28300C41F36 /* ThirdViewController.swift */,
+				73BC4E4D1FE1B14B00C41F36 /* AppDelegate.swift */,
+				73BC4E4F1FE1B14B00C41F36 /* ViewController.swift */,
+				73BC4E511FE1B14B00C41F36 /* Main.storyboard */,
+				73BC4E541FE1B14B00C41F36 /* Assets.xcassets */,
+				73BC4E561FE1B14B00C41F36 /* LaunchScreen.storyboard */,
+				73BC4E591FE1B14B00C41F36 /* Info.plist */,
+				73A07EBA1FE1CA76006F7122 /* ReactNativeViewFactory.swift */,
+				73A07EBE1FE1E0CC006F7122 /* ReactNativeViewManager.swift */,
+				73A07EC21FE1E146006F7122 /* ReactNativeViewManager.m */,
+			);
+			path = TrumpetFingering;
+			sourceTree = "<group>";
+		};
+		73BC4E611FE1B14B00C41F36 /* TrumpetFingeringTests */ = {
+			isa = PBXGroup;
+			children = (
+				73BC4E621FE1B14B00C41F36 /* TrumpetFingeringTests.swift */,
+				73BC4E641FE1B14B00C41F36 /* Info.plist */,
+			);
+			path = TrumpetFingeringTests;
+			sourceTree = "<group>";
+		};
+		87FB780C63B7A7CF4305EF06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				702AEB0FAAA6CDB30640DDC0 /* Pods_TrumpetFingering.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E50BDDB15E833CBB79F03D2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06A7D71EEEF8E4D883E5A928 /* Pods-TrumpetFingering.debug.xcconfig */,
+				C29AB3CFCCB4DAC6E1753039 /* Pods-TrumpetFingering.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73BC4E491FE1B14B00C41F36 /* TrumpetFingering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BC4E671FE1B14B00C41F36 /* Build configuration list for PBXNativeTarget "TrumpetFingering" */;
+			buildPhases = (
+				919F24DC139380EFCB4246F6 /* [CP] Check Pods Manifest.lock */,
+				73BC4E461FE1B14B00C41F36 /* Sources */,
+				73BC4E471FE1B14B00C41F36 /* Frameworks */,
+				73BC4E481FE1B14B00C41F36 /* Resources */,
+				9ABD5CB347642722A85F3D3F /* [CP] Embed Pods Frameworks */,
+				FA6A1A1F72EB7E841054FA98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrumpetFingering;
+			productName = TrumpetFingering;
+			productReference = 73BC4E4A1FE1B14B00C41F36 /* TrumpetFingering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73BC4E5D1FE1B14B00C41F36 /* TrumpetFingeringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BC4E6A1FE1B14B00C41F36 /* Build configuration list for PBXNativeTarget "TrumpetFingeringTests" */;
+			buildPhases = (
+				73BC4E5A1FE1B14B00C41F36 /* Sources */,
+				73BC4E5B1FE1B14B00C41F36 /* Frameworks */,
+				73BC4E5C1FE1B14B00C41F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73BC4E601FE1B14B00C41F36 /* PBXTargetDependency */,
+			);
+			name = TrumpetFingeringTests;
+			productName = TrumpetFingeringTests;
+			productReference = 73BC4E5E1FE1B14B00C41F36 /* TrumpetFingeringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73BC4E421FE1B14B00C41F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ulrich Sinn";
+				TargetAttributes = {
+					73BC4E491FE1B14B00C41F36 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					73BC4E5D1FE1B14B00C41F36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 73BC4E491FE1B14B00C41F36;
+					};
+				};
+			};
+			buildConfigurationList = 73BC4E451FE1B14B00C41F36 /* Build configuration list for PBXProject "TrumpetFingering" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73BC4E411FE1B14B00C41F36;
+			productRefGroup = 73BC4E4B1FE1B14B00C41F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73BC4E491FE1B14B00C41F36 /* TrumpetFingering */,
+				73BC4E5D1FE1B14B00C41F36 /* TrumpetFingeringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73BC4E481FE1B14B00C41F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BC4E581FE1B14B00C41F36 /* LaunchScreen.storyboard in Resources */,
+				73BC4E551FE1B14B00C41F36 /* Assets.xcassets in Resources */,
+				73BC4E531FE1B14B00C41F36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BC4E5C1FE1B14B00C41F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		919F24DC139380EFCB4246F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrumpetFingering-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ABD5CB347642722A85F3D3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrumpetFingering/Pods-TrumpetFingering-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/GLog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/RNSVG/RNSVG.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNSVG.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumpetFingering/Pods-TrumpetFingering-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA6A1A1F72EB7E841054FA98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumpetFingering/Pods-TrumpetFingering-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73BC4E461FE1B14B00C41F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BC4E6F1FE1B28300C41F36 /* SecondViewController.swift in Sources */,
+				73BC4E501FE1B14B00C41F36 /* ViewController.swift in Sources */,
+				73A07EC31FE1E146006F7122 /* ReactNativeViewManager.m in Sources */,
+				73BC4E701FE1B28300C41F36 /* ThirdViewController.swift in Sources */,
+				73A07EBF1FE1E0CC006F7122 /* ReactNativeViewManager.swift in Sources */,
+				73A07EBB1FE1CA76006F7122 /* ReactNativeViewFactory.swift in Sources */,
+				73BC4E4E1FE1B14B00C41F36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BC4E5A1FE1B14B00C41F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BC4E631FE1B14B00C41F36 /* TrumpetFingeringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73BC4E601FE1B14B00C41F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73BC4E491FE1B14B00C41F36 /* TrumpetFingering */;
+			targetProxy = 73BC4E5F1FE1B14B00C41F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73BC4E511FE1B14B00C41F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BC4E521FE1B14B00C41F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73BC4E561FE1B14B00C41F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BC4E571FE1B14B00C41F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73BC4E651FE1B14B00C41F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73BC4E661FE1B14B00C41F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73BC4E681FE1B14B00C41F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A7D71EEEF8E4D883E5A928 /* Pods-TrumpetFingering.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FDZ9L4Q5F;
+				INFOPLIST_FILE = TrumpetFingering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addtothenoise.TrumpetFingering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73BC4E691FE1B14B00C41F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29AB3CFCCB4DAC6E1753039 /* Pods-TrumpetFingering.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FDZ9L4Q5F;
+				INFOPLIST_FILE = TrumpetFingering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addtothenoise.TrumpetFingering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73BC4E6B1FE1B14B00C41F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FDZ9L4Q5F;
+				INFOPLIST_FILE = TrumpetFingeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addtothenoise.TrumpetFingeringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrumpetFingering.app/TrumpetFingering";
+			};
+			name = Debug;
+		};
+		73BC4E6C1FE1B14B00C41F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FDZ9L4Q5F;
+				INFOPLIST_FILE = TrumpetFingeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addtothenoise.TrumpetFingeringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrumpetFingering.app/TrumpetFingering";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73BC4E451FE1B14B00C41F36 /* Build configuration list for PBXProject "TrumpetFingering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BC4E651FE1B14B00C41F36 /* Debug */,
+				73BC4E661FE1B14B00C41F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BC4E671FE1B14B00C41F36 /* Build configuration list for PBXNativeTarget "TrumpetFingering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BC4E681FE1B14B00C41F36 /* Debug */,
+				73BC4E691FE1B14B00C41F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BC4E6A1FE1B14B00C41F36 /* Build configuration list for PBXNativeTarget "TrumpetFingeringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BC4E6B1FE1B14B00C41F36 /* Debug */,
+				73BC4E6C1FE1B14B00C41F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73BC4E421FE1B14B00C41F36 /* Project object */;
+}
