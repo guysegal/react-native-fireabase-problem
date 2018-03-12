@@ -19,7 +19,6 @@
 		73BC4E6F1FE1B28300C41F36 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC4E6D1FE1B28300C41F36 /* SecondViewController.swift */; };
 		73BC4E701FE1B28300C41F36 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC4E6E1FE1B28300C41F36 /* ThirdViewController.swift */; };
 		C860A2EDCD96F9AF6ABD839B /* Pods_TrumpetFingering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702AEB0FAAA6CDB30640DDC0 /* Pods_TrumpetFingering.framework */; };
-		DC494164793342269D7EE8E7 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C015939CCED54FAB80C0D499 /* libRNFirebase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +28,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 73BC4E491FE1B14B00C41F36;
 			remoteInfo = TrumpetFingering;
-		};
-		E41B0B4F205152BB0093856E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFCD01445F4D4E0F9958260F /* RNFirebase.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNFirebase;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -59,7 +51,6 @@
 		73BC4E6E1FE1B28300C41F36 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		C015939CCED54FAB80C0D499 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		C29AB3CFCCB4DAC6E1753039 /* Pods-TrumpetFingering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetFingering.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpetFingering/Pods-TrumpetFingering.release.xcconfig"; sourceTree = "<group>"; };
-		EFCD01445F4D4E0F9958260F /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C860A2EDCD96F9AF6ABD839B /* Pods_TrumpetFingering.framework in Frameworks */,
-				DC494164793342269D7EE8E7 /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +80,6 @@
 				73BC4E4B1FE1B14B00C41F36 /* Products */,
 				E50BDDB15E833CBB79F03D2E /* Pods */,
 				87FB780C63B7A7CF4305EF06 /* Frameworks */,
-				8A1201527E3D4AE998A70A7E /* Libraries */,
 				E41B0B4B205152BB0093856E /* Recovered References */,
 			);
 			sourceTree = "<group>";
@@ -139,28 +128,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8A1201527E3D4AE998A70A7E /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				EFCD01445F4D4E0F9958260F /* RNFirebase.xcodeproj */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
 		E41B0B4B205152BB0093856E /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				C015939CCED54FAB80C0D499 /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
-			sourceTree = "<group>";
-		};
-		E41B0B4C205152BB0093856E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E41B0B50205152BB0093856E /* libRNFirebase.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E50BDDB15E833CBB79F03D2E /* Pods */ = {
@@ -246,12 +219,6 @@
 			mainGroup = 73BC4E411FE1B14B00C41F36;
 			productRefGroup = 73BC4E4B1FE1B14B00C41F36 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E41B0B4C205152BB0093856E /* Products */;
-					ProjectRef = EFCD01445F4D4E0F9958260F /* RNFirebase.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				73BC4E491FE1B14B00C41F36 /* TrumpetFingering */,
@@ -259,16 +226,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E41B0B50205152BB0093856E /* libRNFirebase.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNFirebase.a;
-			remoteRef = E41B0B4F205152BB0093856E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		73BC4E481FE1B14B00C41F36 /* Resources */ = {
