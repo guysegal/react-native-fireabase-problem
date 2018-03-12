@@ -8,9 +8,9 @@ target 'TrumpetFingering' do
  # Your 'node_modules' directory is probably in the root of your project,
   # but if not, adjust the `:path` accordingly
 
-  pod 'RNSVG', :path => '../js/node_modules/react-native-svg'
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
-  pod 'React', :path => '../js/node_modules/react-native', :subspecs => [
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
     'Core',
     'CxxBridge', # Include this for RN >= 0.47
     'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
@@ -24,12 +24,13 @@ target 'TrumpetFingering' do
 
 
   # Explicitly include Yoga if you are using RN >= 0.42.0
-  pod "yoga", :path => "../js/node_modules/react-native/ReactCommon/yoga"
+  pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
 
   # Third party deps podspec link
-  pod 'DoubleConversion', :podspec => '../js/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
-  pod 'GLog', :podspec => '../js/node_modules/react-native/third-party-podspecs/GLog.podspec'
-  pod 'Folly', :podspec => '../js/node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'GLog', :podspec => '../node_modules/react-native/third-party-podspecs/GLog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'Firebase/Core'
 
 
 end
